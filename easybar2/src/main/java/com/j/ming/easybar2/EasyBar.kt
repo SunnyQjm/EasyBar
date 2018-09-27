@@ -142,7 +142,6 @@ class EasyBar @JvmOverloads constructor(context: Context, attrs: AttributeSet? =
         imgRightParam.height = icon_size
         imgRight.layoutParams = imgRightParam
         imgRight.setPadding(icon_margin, icon_margin, icon_margin, icon_margin)
-        imgRight.id = R.id.bar_right_icon
         addView(imgRight, imgRightParam)
 
         imgRight.visibility = View.INVISIBLE
